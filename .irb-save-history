@@ -1,0 +1,16 @@
+ 
+a = [42, 8, 17]
+a
+a.first
+a.second
+a.third
+a.last
+a.last === a[-1]
+0..9
+0..9.to_s
+(0..9).to_s
+(0..9).to_a
+h2 = { name: "Michael Hartl", email: "michael@example.com" }
+{} === {}
+{} == {}
+exit
