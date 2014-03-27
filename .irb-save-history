@@ -14,3 +14,33 @@ h2 = { name: "Michael Hartl", email: "michael@example.com" }
 {} === {}
 {} == {}
 exit
+thing = { 'stuff': 'whatever'}
+thing = { stuff: 'whatever'}
+thing
+User.new
+user = User.new(name: "Michael Hartl", email: "mhartl@example.com")
+user.save
+user
+user.name
+user.id
+User.create(name: "A Nother", email: "another@example.org")
+User.find(1)
+User.find
+User.find()
+User.find(2)
+User.first
+User.all
+exit
+user = User.new(name: '', email: "mhartl@example.com")
+user.save
+user.valid?
+user.valid
+user.errors.full_messages
+user.errors.full_messagesexit
+exit
+User.create(name: "Michael Hartl", email: "mhartl@example.com", password: "foobar", password_confirmation: "foobar")
+user = User.find_by(email: "mhartl@example.com")
+user.password_digest
+user.password
+user.authenticate("foobar")
+exit
