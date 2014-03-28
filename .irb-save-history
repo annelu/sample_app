@@ -44,3 +44,7 @@ user.password_digest
 user.password
 user.authenticate("foobar")
 exit
+User.find(1)
+exit
+User.find_by(email:'test@test.com')
+exit
