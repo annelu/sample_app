@@ -48,3 +48,8 @@ User.find(1)
 exit
 User.find_by(email:'test@test.com')
 exit
+1.year.from_now
+2.years.from_now
+10.weeks.ago
+1.week.ago
+exit
